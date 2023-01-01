@@ -5,6 +5,7 @@
 <ul>
 <li> Day 1: Drum Kit </li>
 <li> Day 2: Clock </li>
+<li> Day 3: Changing CSS variables</li>
 </ul>
 
 
