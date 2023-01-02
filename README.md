@@ -7,6 +7,7 @@
 <li> Day 2: Clock </li>
 <li> Day 3: Changing CSS variables</li>
 <li> Day 4: Filter, Reduce, Map and Sort</li>
+<li> Day 5: Flex Panel Gallery</li>
 </ul>
 
 
