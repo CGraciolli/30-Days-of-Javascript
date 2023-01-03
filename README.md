@@ -9,6 +9,7 @@
 <li> Day 4: Filter, Reduce, Map and Sort</li>
 <li> Day 5: Flex Panel Gallery</li>
 <li> Day 6: Search Bar </li>
+<li> Day 7: Some, Every, Find, FindIndex</li>
 </ul>
 
 
