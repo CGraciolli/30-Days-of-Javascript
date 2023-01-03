@@ -8,6 +8,7 @@
 <li> Day 3: Changing CSS variables</li>
 <li> Day 4: Filter, Reduce, Map and Sort</li>
 <li> Day 5: Flex Panel Gallery</li>
+<li> Day 6: Search Bar </li>
 </ul>
 
 
