@@ -11,6 +11,7 @@
 <li> Day 6: Search Bar </li>
 <li> Day 7: Some, Every, Find, FindIndex</li>
 <li> Day 8: Canvas</li>
+<li> Day 9: Dev Tool Tricks</li>
 </ul>
 
 
