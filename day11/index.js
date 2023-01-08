@@ -5,6 +5,8 @@ const rate = document.querySelector("input[name=playbackRate]")
 const skip_buttons = document.querySelectorAll("[data-skip]")
 const progress = document.querySelector(".progress")
 const progress_bar = document.querySelector(".progress__filled")
+const fullscreen_btn = document.querySelector(".fullscreen")
+const player = document.querySelector(".player")
 
 function playOrPause(){
     if(video.paused){
@@ -57,3 +59,10 @@ let mousedown = false
 progress.addEventListener("mousemove", (e) => mousedown && changeTime(e))
 progress.addEventListener("mousedown", () => mousedown = true)
 progress.addEventListener("mouseup", () => mousedown = false)
+
+function handleFullscreen(){
+    player.classList.toggle("fullscreen")
+    console.log("toggle")
+}
+
+fullscreen_btn.addEventListener("click", handleFullscreen)
