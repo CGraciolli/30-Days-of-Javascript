@@ -13,6 +13,8 @@
 <li> Day 8: Canvas</li>
 <li> Day 9: Dev Tool Tricks</li>
 <li> Day 10: Checking multiple items while holding shift</li>
+<li> Day 11: Customizing HTML Video Player </li>
+<li> Day 12: Secret Code </li>
 </ul>
 
 
