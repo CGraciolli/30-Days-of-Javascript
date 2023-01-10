@@ -74,8 +74,16 @@ h2 {
     margin-top: 20px;
 }
 
-.add-items input {
+.add-items input, button {
     padding: 10px;
     outline: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     }
+
+.buttons{
+    margin-top: 0.5rem;
+}
+
+.check:hover, .clear:hover, .uncheck:hover, .add:hover{
+    cursor: pointer;
+}

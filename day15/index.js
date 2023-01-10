@@ -1,6 +1,9 @@
 const addItems = document.querySelector('.add-items')
 const itemsList = document.querySelector('.plates')
 const items = JSON.parse(localStorage.getItem("items")) || []
+const clear = document.querySelector(".clear")
+const check_all = document.querySelector(".check")
+const uncheck_all = document.querySelector(".uncheck")
 
 function addItem(e){
     //stops the page from refreshing
@@ -38,8 +41,28 @@ function toggleDone(e){
     populateList(items, itemsList)
 }
 
+function deleteAll(){
+    localStorage.setItem("items", JSON.stringify([]))
+    populateList([], itemsList)
+}
+
+function checkAll(){
+    items.forEach(item => item.done = true)
+    localStorage.setItem("items", JSON.stringify(items))
+    populateList(items, itemsList)
+}
+
+function uncheckAll(){
+    items.forEach(item => item.done = false)
+    localStorage.setItem("items", JSON.stringify(items))
+    populateList(items, itemsList)
+}
+
 addItems.addEventListener("submit", addItem)
 itemsList.addEventListener("click", toggleDone)
+clear.addEventListener("click", deleteAll)
+check_all.addEventListener("click", checkAll)
+uncheck_all.addEventListener("click", uncheckAll)
 
 populateList(items, itemsList)
 
