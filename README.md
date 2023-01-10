@@ -15,6 +15,9 @@
 <li> Day 10: Checking multiple items while holding shift</li>
 <li> Day 11: Customizing HTML Video Player </li>
 <li> Day 12: Secret Code </li>
+<li> Day 13: Images appear while scrolling</li>
+<li> Day 14: Reference vs Copy</li>
+<li> Day 15: Local Storage and Event Delegation</li>
 </ul>
 
 
