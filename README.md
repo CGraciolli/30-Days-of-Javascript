@@ -18,6 +18,8 @@
 <li> Day 13: Images appear while scrolling</li>
 <li> Day 14: Reference vs Copy</li>
 <li> Day 15: Local Storage and Event Delegation</li>
+<li> Day 16: Text shadow changes when the mouse moves</li>
+<li> Day 17: Sort list without articles</li>
 </ul>
 
 
