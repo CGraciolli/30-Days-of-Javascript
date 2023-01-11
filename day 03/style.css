@@ -1,0 +1,59 @@
+:root{
+    --color: #B5062E;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(103, 102, 102);
+    color:white;
+    font-family: 'helvetica neue', sans-serif;
+    font-size: 25px;
+}
+
+.background{
+    margin-top: 2rem;
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--spacing);
+    background: var(--color);
+    filter: blur(var(--blur));
+}
+
+.controls{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.control{
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+    text-align: center;
+}
+
+.hl{
+    color: var(--color);
+}
+
+input{
+    color: white;
+}
+
+.colorpick-eyedropper-input-trigger{
+    display:none;
+    position: relative;
+}
