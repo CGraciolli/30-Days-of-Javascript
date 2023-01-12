@@ -20,6 +20,7 @@
 <li> Day 15: Local Storage and Event Delegation</li>
 <li> Day 16: Text shadow changes when the mouse moves</li>
 <li> Day 17: Sort list without articles</li>
+<li> Day 18: Reduce </li>
 </ul>
 
 
