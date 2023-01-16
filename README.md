@@ -22,6 +22,7 @@
 <li> Day 17: Sort list without articles</li>
 <li> Day 18: Reduce </li>
 <li> Day 19: Webcam Effects </li>
+<li> Day 20: Speech Recognition </li>
 </ul>
 
 
