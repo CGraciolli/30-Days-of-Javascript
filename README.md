@@ -23,6 +23,8 @@
 <li> Day 18: Reduce </li>
 <li> Day 19: Webcam Effects </li>
 <li> Day 20: Speech Recognition </li>
+<li> Day 21: Geolocation </li>
+<li> Day 22: Follow Along Links </li>
 </ul>
 
 
