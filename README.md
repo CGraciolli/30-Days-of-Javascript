@@ -25,6 +25,7 @@
 <li> Day 20: Speech Recognition </li>
 <li> Day 21: Geolocation </li>
 <li> Day 22: Follow Along Links </li>
+<li> Day 23: Speech Synthesis </li>
 </ul>
 
 
