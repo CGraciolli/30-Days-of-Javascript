@@ -28,6 +28,7 @@
 <li> Day 23: Speech Synthesis </li>
 <li> Day 24: Moving Navigation Bar </li>
 <li> Day 25: Propagation, Bubbling and Once </li>
+<li> Day 26: Responsive Tooltips </li>
 </ul>
 
 
