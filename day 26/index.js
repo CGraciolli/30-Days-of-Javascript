@@ -14,13 +14,14 @@ function handleEnter(){
     const coord = {
         height: dropdownCoord.height,
         width: dropdownCoord.width,
-        top: dropdown.top -navCoord.top,
-        left: dropdown.left -navCoord.left
+        top: dropdownCoord.top -navCoord.top,
+        left: dropdownCoord.left -navCoord.left
     }
 
     background.style.setProperty("height", `${coord.height}px`)
     background.style.setProperty("width", `${coord.width}px`)
     background.style.setProperty('transform', `translate(${coord.left}px, ${coord.top}px)`)
+
 }
 
 function handleLeave(){
