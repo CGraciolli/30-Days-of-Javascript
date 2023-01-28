@@ -29,6 +29,7 @@
 <li> Day 24: Moving Navigation Bar </li>
 <li> Day 25: Propagation, Bubbling and Once </li>
 <li> Day 26: Responsive Tooltips </li>
+<li> Day 27: Click and Drag to Scroll </li>
 </ul>
 
 
